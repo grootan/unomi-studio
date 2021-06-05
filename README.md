@@ -48,6 +48,10 @@ Unomi studio exposes api and ui
 Base Path: http://localhost:8085/v1/api
 ```
 
+#SSL
+
+Replace the self signed certificates with your real certificates, dont change the name of the certificate
+
 # Documentation
 
 Read the [docs](https://unomi-studio.netlify.app)
