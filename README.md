@@ -58,6 +58,6 @@ For issues please report [here](https://github.com/grootan/unomi-studio/issues)
 
 # Roadmap
 
--> Addition and deletion of Rules
--> Add Support for goals
--> Add Support for campaigns
+Addition and deletion of Rules
+Add Support for goals
+Add Support for campaigns
