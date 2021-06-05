@@ -1,6 +1,11 @@
 # Unomi Studio
 Dashboard to manage apps and tenants for tracking and analytics
 
+# Supported
+
+Apache Unomi : 1.5.6
+Elastic Search: 7.4.2
+
 ## How to run
 
 ## Docker
@@ -55,6 +60,7 @@ Replace the self signed certificates with your real certificates, dont change th
 # Documentation
 
 Read the [docs](https://unomi-studio.netlify.app)
+Read about apache unomi [here](https://unomi.apache.org/manual/1_5_x/index.html)
 
 # Issues
 
@@ -71,3 +77,4 @@ Add Waiting period in ui till elasticsearch and unomi boots up
 
 Sometimes unomi-studio may boot up earlier than elasticsearch and unomi, in such cases wait till other containers are booted
 and restart unomi-studio container
+After running the script, unomi may take 15 to 20 mins to update geo database, so in such cases apache unomi may not respone
