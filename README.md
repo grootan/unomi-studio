@@ -65,3 +65,9 @@ For issues please report [here](https://github.com/grootan/unomi-studio/issues)
 Addition and deletion of Rules
 Add Support for goals
 Add Support for campaigns
+Add Waiting period in ui till elasticsearch and unomi boots up
+
+# TroubleShooting
+
+Sometimes unomi-studio may boot up earlier than elasticsearch and unomi, in such cases wait till other containers are booted
+and restart unomi-studio container

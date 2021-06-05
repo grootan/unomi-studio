@@ -78,9 +78,16 @@ curl --location --request POST 'http://localhost:8181/cxs/rules' \
     }
 }'
 
+rm -rf misc
 
-docker cp ../misc/allCountries.zip unomi:/opt/apache-unomi/etc
+mkdir misc
 
-docker cp ../misc/GeoLite2-City.mmdb unomi:/opt/apache-unomi/etc
+curl -L -o ./misc/allCountries.zip https://bit.ly/3psjzCn
+
+curl -L -o ./misc/GeoLite2-City.mmdb https://bit.ly/3uSUbqK
+
+docker cp ./misc/allCountries.zip unomi:/opt/apache-unomi/etc
+
+docker cp ./misc/GeoLite2-City.mmdb unomi:/opt/apache-unomi/etc
 
 docker restart unomi
