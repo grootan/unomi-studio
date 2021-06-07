@@ -3,7 +3,7 @@ services:
 
   unomi-studio:
     container_name: unomi-studio
-    image: grootan/unomi-studio:1.0.0
+    image: grootan/unomi-studio:1.0.1
     environment:
       UNOMI_HOST: http://unomi:8181
       UNOMI_USERNAME: karaf
